@@ -1,0 +1,22 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url(default.css);
+
+.skip{display:none;}/*사라지게 할 것들 (ex : h2 팝업)*/
+
+body{font-family: 'Noto Sans KR', sans-serif;font-size:16px;line-height:1.5;font-weight:400;letter-spacing:-0.04em;color:#3d3d3d;}
+@media screen and (max-width:640px){
+	body{font-size:15px;}
+}
+
+button{font-family: 'Noto Sans KR', sans-serif;font-size:17px;line-height:1.5;font-weight:300;letter-spacing:-0.04em;}
+@media screen and (max-width:640px){
+	button{font-size:15px;}
+}
+.layout{min-width:1200px;overflow:hidden;}
+
+.wrap{width:1200px;margin:0 auto;}
+@media screen and (max-width:640px){
+	
+	.layout{min-width:0;}
+	.wrap{width:auto;margin:0 5%;}
+}
